@@ -40,12 +40,9 @@ programa
         {
         	jogador1=1
 
-        	se(jogador1==0)
-        	{
-        		escreva("Jogador", jogador1, "está impedido")
-        	}senao{
+        
         		
-        	}
+        	
         	
         	
         	escreva("Jogador ",jogador1, " digite qualquer número positivo para rodar seu dado: \n")
@@ -343,7 +340,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 17174; 
+ * @POSICAO-CURSOR = 877; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
