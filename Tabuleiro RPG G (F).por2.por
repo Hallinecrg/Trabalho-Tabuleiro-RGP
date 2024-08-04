@@ -3,13 +3,12 @@ programa
 	inclua biblioteca Texto --> tx
 	inclua biblioteca Util --> u
 	 
-	
 	funcao inicio()
 	{
 		 
-		inteiro casa1=1, casa2=1, jogador1=1, jogador2=2, sorteio, placar1=0, placar2=0, troca
-		real dado, jogar=1, Cancao=0
-		cadeia letra
+	inteiro casa1=1, casa2=1, jogador1=1, jogador2=2, sorteio, placar1=0, placar2=0, troca
+	real dado, jogar=1, Cancao=0
+	cadeia letra
 
 		 
           escreva("Digite um número para jogar ⚔(°◡°)⚔ \n")
@@ -19,15 +18,10 @@ programa
           escreva ("\n")
           jogar= tx.numero_caracteres(letra)
          
-         
-
-	     
-
        enquanto(jogar>0)
        {
        	
-          
-       	se(jogar==2)
+           se(jogar==2)
        	{
 		escreva("Placar do jogador 1:",  placar1,"\n")
 		escreva("Placar do jogador 2:",  placar2,"\n","\n")
@@ -40,11 +34,6 @@ programa
         {
         	jogador1=1
 
-        
-        		
-        	
-        	
-        	
         	escreva("Jogador ",jogador1, " digite qualquer número positivo para rodar seu dado: \n")
         	escreva("\n")
         	leia(letra)
@@ -293,14 +282,12 @@ programa
         	     	 escreva("O jogador 2 voltou para a casa \n", casa2,"\n","\n")
         	     }
 
+                se(casa2>=20 e jogador2==2)
 
-
-        	  se(casa2>=20 e jogador2==2)
-        	  {
-        	  	escreva(" 'Raios intermináveis, rios de lava, gigantes colunas de fogo e enormes estalactites de gelo. \n No meio do caos, o bando se encontra em uma luta épica contra Botegilr, usando a última de suas forças para lutar contra o terrível dragão. \n Finalmente uma chance se apresenta, e o Guerreiro não hesitou por um momento. Em um grande arco, a sua espada penetra as duras escamas do dragão, acertando um golpe certeiro em seu coração. Soltando um último rugido, o dragão, agora caído, encontrou o seu fim. \n O bando retorna à capital e são recebidos como heróis, sua história sendo contada em lendas por muitas gerações a vir.' \n Parabéns !!!!! jogador 2, você derrotou o dragão e obteve a vitória!\n")
+                escreva(" 'Raios intermináveis, rios de lava, gigantes colunas de fogo e enormes estalactites de gelo. \n No meio do caos, o bando se encontra em uma luta épica contra Botegilr, usando a última de suas forças para lutar contra o terrível dragão. \n Finalmente uma chance se apresenta, e o Guerreiro não hesitou por um momento. Em um grande arco, a sua espada penetra as duras escamas do dragão, acertando um golpe certeiro em seu coração. Soltando um último rugido, o dragão, agora caído, encontrou o seu fim. \n O bando retorna à capital e são recebidos como heróis, sua história sendo contada em lendas por muitas gerações a vir.' \n Parabéns !!!!! jogador 2, você derrotou o dragão e obteve a vitória!\n")
         	  	placar2=placar2+1
         	  }
-        }
+          }
 
           se(jogar>0)
           {
@@ -337,12 +324,9 @@ programa
         	 {
         	 	escreva("\n Jogador 1 e jogador 2 ficaram empatado \n")
         	 }
-        }
-      
-
-       	
-	}
-}
+            }
+       }
+  }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
